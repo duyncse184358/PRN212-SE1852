@@ -21,8 +21,14 @@ FullTimeEmployee obama = new FullTimeEmployee()
     name = " barac obama ",
     birthday = new DateTime(1960 / 12 / 26)
 };
+Console.WriteLine("=====Thông tin của Obama=====");
+Console.WriteLine(obama);
 
 PartTimeEmployee trump = new PartTimeEmployee()
 {
-
-}
+    id = 200,
+    Idcard = "456",
+    name = "Donald Trump",
+    birthday = new DateTime(1940, 12, 26),
+    WorkHour = 3
+};

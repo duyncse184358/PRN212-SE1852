@@ -20,7 +20,7 @@ namespace OOP2
 
         public override string ToString()
         {
-            return id+"\t"+Idcard+"\t" + name + "\t" + birthday.ToString("dd/MM/yyyy\t") + calSalary ;
+            return id+"\t"+Idcard+"\t" + name + "\t" + birthday.ToString("dd/MM/yyyy\t") + calSalary();
         }
     }
 }
