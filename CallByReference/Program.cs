@@ -23,7 +23,3 @@ Console.WriteLine("a sau khi vào hàm " + a);
 Console.WriteLine("b sau  khi vào hàm " + b);
 Console.ReadLine();
 
-static object GetEndcoding()
-{
-    return Endcoding;
-}
